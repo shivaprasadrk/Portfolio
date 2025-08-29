@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio - Shivaprasad RK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ad6b86e160.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <video autoplay muted loop src="images/Network.webm" type="video/webm" class="banner"></video>
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Expertise</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Shivaprasad R.K</span></h1>
+                <p># Data Scientist | # Machine Learning Enthusiast | # AI & Analytics Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate Data Science enthusiast with strong expertise in Machine Learning, Deep Learning, and Predictive Analytics. 
+                       Skilled at transforming raw data into actionable insights, I focus on solving real-world problems with AI-driven solutions. 
+                       My journey blends academic knowledge with hands-on projects like <b>Blood Group Prediction from Fingerprint (CNN)</b> and 
+                       <b>Video Game Sales Prediction using Predictive Analytics</b>.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Tools')">Tools</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Machine Learning</span><br>Regression, Classification, Clustering</li>
+                            <li><span>Deep Learning</span><br>CNN, TensorFlow, Keras</li>
+                            <li><span>Data Analysis</span><br>Pandas, NumPy, Statistical Modeling</li>
+                            <li><span>Data Visualization</span><br>Matplotlib, Seaborn, Power BI</li>
+                            <li><span>Programming</span><br>Python, SQL, Java</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Developed BloodPrint AI – CNN-based Blood Group Prediction</li>
+                            <li><span>2023 - 24</span><br>Built predictive models for sales forecasting and analytics</li>
+                            <li><span>2023</span><br>Worked on web applications integrating ML APIs with Flask</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>B.E in Computer Science - AIET (2022 - Present)</li>
+                            <li><span>2020</span><br>PUC in PCMB - MDRPUC (2020 - 2022) </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Tools">
+                        <ul>
+                            <li><span>Languages</span>: Python, SQL, Java</li>
+                            <li><span>Frameworks</span>: TensorFlow, Keras, Flask</li>
+                            <li><span>Tools</span>: GitHub, Power BI, Jupyter Notebook</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services / Expertise -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">What I Do</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Transforming raw datasets into meaningful insights through statistical and exploratory analysis.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Building predictive models that deliver accurate, data-driven decisions.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Data Visualization</h2>
+                    <p>Creating compelling visual stories using dashboards, charts, and interactive reports.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Key Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/blood.png" alt="">
+                    <div class="layer">
+                        <h3>BloodPrint AI</h3>
+                        <p>Deep Learning-based web app predicting blood group from fingerprint images using CNN.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Videoss.png" alt="">
+                    <div class="layer">
+                        <h3>Video Game Sales Prediction</h3>
+                        <p>Machine Learning model predicting global sales using regression and feature engineering.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Dashss.png" alt="">
+                    <div class="layer">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Interactive Power BI dashboard providing actionable business insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Get In Touch</h1>
+                    <p><i class="fa-regular fa-envelope"></i> shivaprasadrkcse@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8792308900</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shiva-prasad-r-k-1480832a0"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/RKshivaprasad29"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/UPupdated resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email address" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Shivaprasad RK. Built with <i class="fa-solid fa-heart"></i> & Data.</p>
+        </div>
+    </div>
+
+    <script>
+    function opentab(tabname) {
+        // Remove active-link from all tab links
+        let tabLinks = document.getElementsByClassName("tab-links");
+        for (let link of tabLinks) {
+            link.classList.remove("active-link");
+        }
+
+        // Remove active-tab from all tab contents
+        let tabContents = document.getElementsByClassName("tab-contents");
+        for (let content of tabContents) {
+            content.classList.remove("active-tab");
+        }
+
+        // Add active classes to the clicked tab and its content
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
